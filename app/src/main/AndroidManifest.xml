@@ -48,6 +48,8 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         >
 
+
+
         <activity android:name=".DemoActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
