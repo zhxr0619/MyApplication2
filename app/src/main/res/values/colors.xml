@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="normal_color">#A4A4A4</color>
+    <color name="press_color">#00A3F5</color>
+
+
+    <color name="tab_unselected">#ff000000</color>
+    <color name="tab_selected">#ff383838</color>
+    <color name="tab_focus">#ffff8000</color>
+    <color name="tab_press">#ffe9a700</color>
+    <color name="list_divider">#e3e0df</color>
+    <color name="tab_font_unselected">#ff888888</color>
+    <color name="tab_font_selected">#ffffffff</color>
+    <color name="tab_font_focus">#ffffffff</color>
+    <color name="tab_font_press">#ff888888</color>
+    <color name="red">#FF0000</color>
+    <color name="yellow">#FFCF7D</color>
+    <color name="red_text">#FC7C89</color>
+    <!-- 标题栏背景颜色 -->
+    <color name="text_black">#343434</color>
+    <color name="text_red">#fc3c39</color>
+    <color name="text_purple_grey">#7f5600</color>
+    <color name="title_bg">#ff4fd588</color>
+    <color name="roundprogressbar_bg">#e3e0df</color>
+    <color name="roundprogressbar_progressb">#bb864d</color>
+    <color name="roundprogressbar_textcolor">#7a7a7a</color>
+    <color name="white">#ffffffff</color>
+    <color name="terrace_tab_text">#12ffdd</color>
+    <color name="selectp2p_select_bg">#866E54</color>
+    <color name="selectp2p_select_text">#FFFFFF</color>
+    <color name="selectp2p_selected_bg">#7b634a</color>
+    <color name="selectp2p_selected_text">#fff452</color>
+
+    <!-- title_bar -->
+    <color name="activity_background">#ebebeb</color>
+    <color name="line_background">#e7e7e7e7</color>
+    <!-- #ffc40e -->
+    <color name="title_bar_background">#ff9f3b</color>
+    <color name="title_bar_text_color2">#662100</color>
+    <color name="anhuise">#7a6547</color>
+    <color name="background_window">#FFE5E5E5</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="tecolor_bran">#867153</color>
+
+    <!-- 一期优化 -->
+    <color name="title_bar_text_color">#ffffff</color>
+    <color name="user_33_text_color">#333333</color>
+    <color name="user_67_text_color">#676767</color>
+    <color name="user_91_text_color">#919191</color>
+    <color name="user_bg_color">#eeeff4</color>
+    <color name="user_view_color">#cecece</color>
+    <color name="green_text_color">#3db352</color>
+    <color name="red_text_color">#e93a3a</color>
+    <color name="transparent_25">#3f000000</color>
+    <color name="gray_text">#919191</color>
+    <color name="black_text">#333333</color>
+    <color name="gray_bac">#f8f8f8</color>
+    <color name="listview_divider_bac">#f0eff5</color>
+    <color name="gray_bac_dark">#eeeff4</color>
+    <color name="transparent_dark">#e0000000</color>
+    <color name="title_bac">#ff9f3b</color>
+    <color name="text_orange">#ff9f3b</color>
+    <color name="text_gray">#999999</color>
+    <color name="mycollect_red_text_color">#e93b3a</color>
+    <color name="mycollect_orange_text_color">#ff9f3b</color>
+    <color name="mycollect_gray_color">#bfbdbe</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="bar_green">#7fc105</color>
+    <color name="hor_bar_orange">#ff6600</color>
+    <color name="bac_divider_line">#dadada</color>
+    <color name="text_blue">#3c98ff</color>
+
+    <color name="hao_click_orange">#fd8201</color>
+    <color name="hao_unclick1">#c7c7c7</color>
+    <color name="hao_unclick2">#b9b7b8</color>
+    <color name="hao_agreemnet">#007bfb</color>
+    <color name="hpd_btn">#31b2d9</color>
+
+    <color name="divider_color">#d0d0d0</color>
+    <color name="province_color">#f2f2f2</color>
+    <color name="purple_color">#bf65d9</color>
+
+    <color name="reward_success">#74cb03</color>
+    <color name="reward_check">#fd8201</color>
+    <color name="web_view_progres">#31b2d9</color>
+
+    <color name="trade_red_color">#e93a3a</color>
+    <color name="trade_green_color">#3cb251</color>
+    <color name="trade_orange_color">#fd8201</color>
+    <color name="trade_orange2_color">#ffad2a</color>
+
+
+
+    <color name="black">#ff000000</color>
+    <color name="gray">#ffdddddd</color>
+    <color name="blue">#ff2ea3fe</color>
+    <color name="orange">#ffec8f25</color>
+
+    <color name="dialog_tv_color">#ff262626</color>
+</resources>

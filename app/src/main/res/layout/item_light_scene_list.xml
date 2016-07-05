@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_off1"
+        >
+
+        <TextView
+            android:id="@+id/itemlight_scene_tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="65dp"
+            android:text="场景1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/item_btn" />
+
+        <ImageView
+            android:id="@+id/itemlight_scene_iv_onoff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/scene_off"
+             android:clickable="true"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

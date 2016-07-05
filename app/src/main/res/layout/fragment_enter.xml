@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/enter_btn_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tv_selected" />
+
+        <Button
+            android:id="@+id/enter_btn_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/music_normal" />
+    </LinearLayout>
+
+    <!-- 背景音乐界面 -->
+
+    <RelativeLayout
+        android:id="@+id/enter_layout_music"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/musicbg"
+        android:visibility="gone" >
+
+        <!-- 背景音乐底部 按钮 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/music_btn_open"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_open" />
+
+            <Button
+                android:id="@+id/music_btn_off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:background="@drawable/selector_close" />
+
+            <Button
+                android:id="@+id/music_btn_fm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:background="@drawable/selector_fm" />
+
+            <Button
+                android:id="@+id/music_btn_mp3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:background="@drawable/selector_mp3" />
+
+            <Button
+                android:id="@+id/music_btn_pre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:background="@drawable/selector_pre" />
+
+            <Button
+                android:id="@+id/music_btn_pause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_play" />
+
+            <Button
+                android:id="@+id/music_btn_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_next" />
+
+            <Button
+                android:id="@+id/music_btn_mute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_mute" />
+
+            <Button
+                android:id="@+id/music_btn_voicereduce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_voicereduce" />
+
+            <Button
+                android:id="@+id/music_btn_voiceadd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_voiceadd" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- 电视界面 -->
+
+    <RelativeLayout
+        android:id="@+id/enter_layout_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/bg" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:layout_marginTop="45dp"
+            >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/tv_btn_up"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/up" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/tv_btn_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/left" />
+
+                <Button
+                    android:id="@+id/tv_btn_ok"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ok" />
+
+                <Button
+                    android:id="@+id/tv_btn_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/right" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/tv_btn_down"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/down" />
+            </LinearLayout>
+        </LinearLayout>
+        <!-- 电视底部 按钮 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/tv_btn_open"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_open" />
+
+            <Button
+                android:id="@+id/tv_btn_off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:background="@drawable/selector_close" />
+
+            <Button
+                android:id="@+id/tv_btn_source"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:background="@drawable/selector_input" />
+
+            <Button
+                android:id="@+id/tv_btn_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_menu" />
+
+            <Button
+                android:id="@+id/tv_btn_channeladd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_ca" />
+
+            <Button
+                android:id="@+id/tv_btn_channelreduce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_cr" />
+
+            <Button
+                android:id="@+id/tv_btn_mute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_vm" />
+
+            <Button
+                android:id="@+id/tv_btn_voicereduce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_vr" />
+
+            <Button
+                android:id="@+id/tv_btn_voiceadd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_va" />
+
+            <Button
+                android:id="@+id/tv_btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_back" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

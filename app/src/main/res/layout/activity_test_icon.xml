@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewHomePackage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/numInput"
+        android:layout_below="@id/textViewHomePackage"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        />
+
+    <Button android:id="@+id/btnSetBadge"
+        android:layout_below="@id/numInput"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Set badge"
+        android:layout_centerVertical="true" android:layout_centerHorizontal="true"/>
+
+    <Button android:id="@+id/btnRemoveBadge"
+        android:layout_below="@id/btnSetBadge"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Remove badge"
+        android:layout_centerVertical="true" android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRemoveBadge">
+        <!--<include layout="@layout/event_home_page_layout"
+            />-->
+        <!--<ImageView
+            android:id="@+id/home_event_icon2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingRight="15dp"
+            android:src="@drawable/event_icon2"/>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/new_comer_module"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="5dp">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.1"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="鏂版墜绀�"
+                                android:textSize="15sp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="鐜伴噾鏋侀�熷埌璐�"
+                                android:textColor="@color/user_91_text_color"
+                                android:textSize="12sp"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.1"
+                            android:layout_gravity="center_vertical"
+                            android:paddingRight="15dp">
+                            <ImageView
+                                android:id="@+id/home_event_icon2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/event_icon2"/>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"/>
+
+                    <LinearLayout
+                        android:id="@+id/add_xi_module"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="5dp">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.1"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="鍔犳伅鍖�"
+                                android:textSize="15sp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="鏈�楂樺姞鎭�6%"
+                                android:textColor="@color/user_91_text_color"
+                                android:textSize="12sp"/>
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/home_event_icon6"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.1"
+                            android:paddingRight="15dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/event_icon6"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/partner_module"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="5dp">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.2"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="鍚堜綔骞冲彴"
+
+                                android:textSize="15sp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="鏈変繚闅滄洿瀹夊績"
+                                android:textColor="@color/user_91_text_color"
+                                android:textSize="12sp"/>
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingRight="15dp"
+                            android:src="@drawable/event_icon3"/>
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        />
+
+                    <LinearLayout
+                        android:id="@+id/fund_module"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="5dp">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.2"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="鍩洪噾涓撳尯"
+
+                                android:textSize="15sp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="鎵嬬画璐�1鎶樿捣"
+                                android:textColor="@color/user_91_text_color"
+                                android:textSize="12sp"/>
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingRight="15dp"
+                            android:src="@drawable/event_icon5"/>
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        />
+
+                    <LinearLayout
+                        android:id="@+id/invite_module"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="5dp">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.2"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="涓�璧疯禋"
+
+                                android:textSize="15sp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="閭�璇峰ソ鍙嬮�佺幇閲�"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                android:textColor="@color/user_91_text_color"
+                                android:textSize="12sp"/>
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/home_event_icon4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingRight="15dp"
+                            android:src="@drawable/event_icon4"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

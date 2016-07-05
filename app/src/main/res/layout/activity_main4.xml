@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="app.univs.cn.myapplication.Main4Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/set"
+            android:text="设置密码"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/verify"
+            android:text="验证密码"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="number"
+    android:digits="0123456789xyzXYZ"
+    />
+
+    <TextView
+        android:id="@+id/resultcode"
+        android:text="@string/hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/> <TextView
+    android:id="@+id/resultdes"
+    android:text="@string/hello_world"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/> <TextView
+    android:id="@+id/pwd"
+    android:text="@string/hello_world"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/appid"
+        android:hint="appid"
+        android:text="appiddd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/userid"
+        android:hint="userid"
+        android:text="452131198001010019"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/acceptTime"
+        android:hint="acceptTime"
+        android:text="20151021181800"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/opType"
+        android:hint="set/verify"
+        android:text="HB102"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/corpId"
+        android:hint="corpId"
+        android:text="000010"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="optype说明，\n SET:HB102/HB104/HB122;\n VERIFY:HB111/HB112,HB113,HB114,HB306,HB309,HB310,HB321"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

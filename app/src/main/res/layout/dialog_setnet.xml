@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingTop="10dip" 
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        >
+
+        <ImageView
+            android:id="@+id/dialog_iv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/main_tittle_logo"
+            android:paddingBottom="10dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@id/dialog_iv_title"
+            android:text="               "
+            android:textColor="@color/black"
+            android:textSize="@dimen/dialog_tv" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:layout_marginTop="5dip"
+        android:background="#262626" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="10dip"
+        android:text="网关地址"
+        android:textColor="@color/dialog_tv_color"
+        android:textSize="@dimen/dialog_tv" />
+
+    <EditText
+        android:id="@+id/dialog_et_ipaddress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:background="@drawable/selector_edittext"
+        android:padding="5dip"
+        android:textSize="@dimen/dialog_et"
+        android:singleLine="true"
+        android:hint="请输入IP地址如：192.168.1.140"
+         />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="10dip"
+            android:text="端口号"
+            android:textColor="@color/dialog_tv_color"
+            android:textSize="@dimen/dialog_tv" />
+
+        <EditText
+            android:id="@+id/dialog_et_port"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:background="@drawable/selector_edittext"
+            android:padding="5dip"
+            android:textSize="@dimen/dialog_et"
+            android:singleLine="true"
+            android:hint="请输入端口号如：2001"
+             />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center_horizontal"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip" >
+
+        <Button
+            android:id="@+id/dialog_btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/selector_cancel" />
+
+        <Button
+            android:id="@+id/dialog_btn_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/dialog_btn_cancel"
+            android:background="@drawable/selector_confirm" />
+    </RelativeLayout>
+
+</LinearLayout>

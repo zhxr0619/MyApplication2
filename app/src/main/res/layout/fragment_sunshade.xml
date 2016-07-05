@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_big"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- 纱帘 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="纱帘:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/main_top_tv" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/blind_tv_open"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selector_curtain"
+                    android:layout_gravity="center_vertical"
+                    android:clickable="true"
+                    android:paddingLeft="20dp"
+                     android:paddingTop="12dp"
+                    android:text="窗帘开"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/item_btn" />
+
+                <TextView
+                    android:id="@+id/blind_tv_pause"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selector_curtain"
+                    android:clickable="true"
+                    android:paddingLeft="20dp"
+                     android:paddingTop="12dp"
+                    android:text="暂停"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/item_btn" />
+
+                <TextView
+                    android:id="@+id/blind_tv_off"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selector_curtain"
+                    android:clickable="true"
+                    android:paddingLeft="20dp"
+                     android:paddingTop="12dp"
+                    android:text="窗帘关"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/item_btn" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="百叶窗:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/main_top_tv" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/curtain_tv_open"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selector_curtain"
+                    android:clickable="true"
+                    android:paddingLeft="20dp"
+                     android:paddingTop="12dp"
+                    android:text="开"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/item_btn" />
+
+                <TextView
+                    android:id="@+id/curtain_tv_pause"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selector_curtain"
+                    android:clickable="true"
+                    android:paddingLeft="20dp"
+                     android:paddingTop="12dp"
+                    android:text="暂停"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/item_btn" />
+
+                <TextView
+                    android:id="@+id/curtain_tv_off"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selector_curtain"
+                    android:clickable="true"
+                    android:paddingLeft="20dp"
+                     android:paddingTop="12dp"
+                    android:text="关"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/item_btn" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="百叶窗"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/main_top_tv" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/glass_tv_open"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/selector_curtain"
+                        android:clickable="true"
+                        android:paddingLeft="20dp"
+                         android:paddingTop="12dp"
+                        android:text="开"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/item_btn" />
+
+                  
+
+                    <TextView
+                        android:id="@+id/glass_tv_off"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/selector_curtain"
+                        android:clickable="true"
+                        android:paddingLeft="20dp"
+                         android:paddingTop="12dp"
+                        android:text="关"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/item_btn" />
+
+                  
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="5dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="投影:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/main_top_tv" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/shadow_tv_open"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selector_curtain"
+                    android:clickable="true"
+                    android:paddingLeft="20dp"
+                     android:paddingTop="12dp"
+                    android:text="投影拉上"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/item_btn" />
+
+                <TextView
+                    android:id="@+id/shadow_tv_pause"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selector_curtain"
+                    android:clickable="true"
+                    android:paddingLeft="20dp"
+                     android:paddingTop="12dp"
+                    android:text="投影停"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/item_btn" />
+
+              
+
+                <TextView
+                    android:id="@+id/shadow_tv_off"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selector_curtain"
+                    android:clickable="true"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="12dp"
+                    android:text="投影拉下"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/item_btn" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

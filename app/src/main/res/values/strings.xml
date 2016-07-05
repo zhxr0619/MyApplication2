@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Xr Application</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="filler_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin mauris varius lacus porttitor eget blandit massa facilisis. Nulla pellentesque odio sed purus fermentum vitae viverra orci faucibus. Sed ullamcorper condimentum vulputate. Curabitur sit amet convallis velit. Vestibulum posuere eleifend risus ac adipiscing. Nam pulvinar nulla a velit faucibus imperdiet. Praesent eget nisi ac justo blandit sagittis. Maecenas at leo nisi, nec varius nisl.\nIn hac habitasse platea dictumst. Morbi neque tortor, vestibulum sed viverra a, luctus vel lorem. Nunc turpis eros, varius eget commodo et, euismod at eros. Sed tincidunt mi purus, vel posuere dui. Vestibulum ante lectus, porta sed mattis bibendum, scelerisque cursus sapien. Cras ultrices imperdiet fermentum. Aenean nisi nulla, euismod non blandit ac, dictum quis libero. Morbi consectetur tempor mollis. Suspendisse eget nunc arcu, vel ullamcorper augue. Integer malesuada, diam nec faucibus mollis, nisl velit euismod enim, ac mattis justo neque sit amet mauris. Vivamus pretium imperdiet pharetra.\nInteger sagittis augue sit amet lectus pulvinar sit amet commodo tortor mattis. Maecenas quis tellus eget ante eleifend sollicitudin non et nibh. Maecenas luctus euismod tristique. Fusce in odio nec diam blandit facilisis. Sed nec arcu eros. Vivamus quis tortor a metus tempus aliquam eget volutpat magna. Pellentesque id ultrices dolor. Sed blandit aliquet quam. Phasellus dapibus euismod vulputate. Aenean blandit, elit vitae vestibulum tincidunt, metus dui accumsan nulla, sit amet vehicula mauris lacus in est. Etiam dignissim pellentesque nulla vel malesuada. Cras vel lorem justo.\nSed condimentum nisl sit amet libero vestibulum hendrerit. Duis auctor tempus placerat. Proin velit ante, ornare nec dictum nec, hendrerit eu arcu. Etiam ut diam ornare quam venenatis pulvinar vitae vel leo. Vivamus consectetur, ante id interdum rhoncus, magna eros pulvinar lacus, a gravida nibh arcu vitae eros. Nulla scelerisque laoreet feugiat. Mauris sit amet gravida felis.\nNulla ac dolor sapien, vestibulum venenatis justo. Cras placerat velit vitae nibh pellentesque ultricies. Suspendisse adipiscing enim eu justo iaculis eu pretium urna fermentum. Duis porttitor nunc non nunc mattis vestibulum. Etiam elit tellus, feugiat in bibendum eget, adipiscing nec metus. Ut ut sem lacus, quis faucibus diam. Curabitur a nulla fermentum tortor dignissim posuere. Fusce faucibus ante ut sem imperdiet imperdiet eget vitae lorem. Etiam fringilla ornare ipsum, in sagittis quam ornare vitae. Nullam venenatis orci sit amet sapien adipiscing gravida. Proin turpis lectus, hendrerit vitae vehicula ut, auctor ac lectus. Pellentesque sollicitudin blandit ligula quis commodo. Mauris vulputate lectus in velit luctus aliquam. Quisque eget tincidunt elit. Quisque et augue quam, sed scelerisque eros.</string>
+
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <!--<string name="xlistview_header_last_time">上次更新时间：</string>-->
+    <string name="xlistview_header_last_time"></string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_footer_hint_nodata">没有更多数据啦</string>
+
+
+    <string name="pull_to_refresh_pull_label1">下拉刷新</string>
+    <string name="pull_to_refresh_release_label1">松开后刷新</string>
+    <string name="pull_to_refresh_refreshing_label1">正在刷新\u2026</string>
+
+    <string name="pull_to_refresh_footer_release_label1">松开后加载</string>
+    <string name="pull_to_refresh_footer_pull_label1">上拉加载更多</string>
+    <string name="pull_to_refresh_footer_refreshing_label1">正在加载中\u2026</string>
+    <string name="text">http://miloisbadboy.com/</string>
+
+
+    <!-- ACCOUNT CREATE DIALOG -->
+    <string name="account_create_steps" formatted="false">&lt;b&gt;STEP %02d of %02d:&lt;br/&gt;&lt;/b&gt;%s</string>
+    <string name="account_create_next">NEXT</string>
+    <string name="account_create_create_account">Create &lt;b&gt;Account&lt;/b&gt;</string>
+    <string name="account_create_full_name_title">FULL NAME</string>
+    <string name="account_create_full_name_hint">Full name</string>
+    <string name="account_create_email_title">E-MAIL</string>
+    <string name="account_create_email_hint">E-Mail</string>
+    <string name="account_create_password_title">PASSWORD</string>
+    <string name="account_create_password_hint">Password</string>
+    <string name="account_create_gender_title">GENDER</string>
+    <string name="account_create_sex_spinner_prompt">Choose your gender</string>
+    <string name="account_create_city_title">CITY</string>
+    <string name="account_create_city_hint">City</string>
+    <string name="account_create_country_title">COUNTRY</string>
+    <string name="account_create_country_spinner_prompt">Choose your country</string>
+    <string name="account_create_zip_title">POSTAL CODE</string>
+    <string name="account_create_zip_hint">Postal Code</string>
+
+
+    <string name="validation_name">Please, enter the name</string>
+    <string name="validation_name_length">Please, enter the name with at least 3 characters</string>
+    <string name="validation_participants">Please, enter the number of participants</string>
+    <string name="validation_valid_email">Please, enter valid email address</string>
+    <string name="validation_date">Date must be in future</string>
+    <string name="validation_type">Please, select type</string>
+    <string name="validation_address">Fill in the address</string>
+    <string name="validation_success">Validation succeeded! \nThat was easy, wasn\'t it?</string>
+
+    <string name="demo_menu_live_validation_enable">Enable live validation</string>
+    <string name="demo_menu_live_validation_disable">Disable live validation</string>
+    <string name="demo_email_hint">E-mail address</string>
+    <string name="demo_email">Email</string>
+    <string name="demo_address">Address</string>
+    <string name="demo_type">Type</string>
+    <string name="demo_pick_date">Pick Date</string>
+    <string name="demo_date">Date</string>
+    <string name="demo_participants_hint"># of participants</string>
+    <string name="demo_number_of_participants">Participants</string>
+    <string name="demo_name">Name</string>
+
+</resources>
